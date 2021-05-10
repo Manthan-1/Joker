@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+	<link rel="stylesheet" type="text/css" href="table.css">
+	<link rel="stylesheet" href="1/styles.css">
+</head>
+<body>
+
+<header>
+    <a href="1/index.html" class="logo"><img src="1/images/logo.png"></a>
+		<div class="toggle"><img src="1/images/toggle.png"></div>
+ </header>
+ <div class="banner">
+	<div class="content">
+		<div class="container">
+			<table>
+				<thead>
+					<tr>
+						<th>NAME</th>
+						<th>BORN</th>
+						<th>NATIONALITY</th>
+						<th>DEBUT</th>
+						<th>PREFESSION</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Todd Phillips</td>
+						<td>20 DECEMBER 1970 </td>
+						<td>AMERICAN</td>
+						<td>1993</td>
+						<td>DIRECTOR</td>
+					</tr>
+					<tr>
+						<td>Scott Silver</td>
+						<td>30 NOVEMBER 1964</td>
+						<td>AMERICAN</td>
+						<td>1996</td>
+						<td>WRITER</td>
+					</tr>
+					<tr>
+						<td>Joaquin Phoenix</td>
+						<td>28 OCTOBER 1974</td>
+						<td>AMERICAN/PUERTO RICAN</td>
+						<td>1984</td>
+						<td>ACTOR</td>
+					</tr>
+					<tr>
+						<td>Robert De Niro</td>
+						<td>17 AUGUST 1943</td>
+						<td>AMERICAN/ITALIAN</td>
+						<td>1969</td>
+						<td>ACTOR</td>
+					</tr>
+					<tr>
+						<td>Zazie Beetz</td>
+						<td>25 MAY 1991 </td>
+						<td>AMERICAN/GERMAN</td>
+						<td>2015</td>
+						<td>ACTRESS</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<ul class="sci">
+			<li><a href="1/index.html">HOME</a></li>
+			<li><a href="1/2/index.html" >CAST</a></li>
+        	<li><a href="table.html" >TABLE</a></li>
+			<li><a href="BOOKING/index.html" >BOOKING</a></li>
+		</ul>
+	</div>
+</div>
+
+<footer>
+        <p class="text-white tm-footer-text">
+          Copyright &copy; Manthan
+          . Design:
+          <a href="https://www.instagram.com/_manthan_shah_/" class="footer-link">Manthan</a>
+          contact: +91-7659984443
+        </p>
+      </footer>
+	
+<script>
+	var contact = document.querySelector(".toggle");
+	var sci = document.querySelector(".sci");
+	contact.addEventListener("click", () => {
+sci.classList.toggle("active");
+}) 
+</script>
+</body>
+</html>
